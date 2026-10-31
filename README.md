@@ -2,7 +2,6 @@
 Naughty Dog ".pak" model plugin for Rich Whitehouse's Noesis
 
 by alphaZomega
-update for Inge, 2026/10/31
 
 ![plugin2](https://i.imgur.com/4MMqiuE.png)
 ![plugin](https://i.imgur.com/oAzAv5A.png)
