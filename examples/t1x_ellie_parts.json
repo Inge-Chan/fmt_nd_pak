@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "parts": [
+    "ellie-costume-01-legs.pak",
+    "ellie-arms-01-u1-g1-v1.pak",
+    "ellie-shirt-01-u1-g3-v1.pak",
+    "ellie-body-01-u1-g2-v1.pak",
+    "ellie-head-01-u1-g1-v1.pak",
+    "ellie-hair-01-u1-g1-v1.pak",
+    {
+      "file": "t1x-ellie-hair-cloth.pak",
+      "meshPrefixes": ["hair_base_"],
+      "boneSuffix": "_hair_cloth",
+      "attachTo": "headb"
+    },
+    {
+      "file": "t1x-ellie-ponytail-cloth.pak",
+      "meshPrefixes": ["default_hair_ponytail_anim_"],
+      "boneSuffix": "_ponytail_cloth",
+      "attachTo": "headb"
+    },
+    {
+      "file": "t1x-ellie-l-strand-a-cloth.pak",
+      "meshPrefixes": ["strand_hair_l_a_"],
+      "boneSuffix": "_l_strand_a_cloth",
+      "attachTo": "headb"
+    },
+    {
+      "file": "t1x-ellie-l-strand-b-cloth.pak",
+      "meshPrefixes": ["strand_hair_l_b_loose_"],
+      "boneSuffix": "_l_strand_b_cloth",
+      "attachTo": "headb"
+    },
+    "ellie-bkpk-01-u1-g1-v1.pak"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "parts": [
+    "${TLOU2}/sp-common/actor97/ellie-farm-explore-tshirt-body.pak",
+    "${TLOU2}/sp-common/actor97/ellie-farm-explore-tshirt.pak",
+    {
+      "file": "${TLOU2}/sp-common/actor97/ellie-farm-head.pak",
+      "meshPrefixes": [
+        "caruncle_",
+        "eye_",
+        "eyelashes_",
+        "default_head_",
+        "default_teeth_",
+        "santa_barbara_eyebrows_"
+      ]
+    },
+    "${TLOU2}/sp-common/actor97/ellie-patrol-hair.pak"
+  ]
+}

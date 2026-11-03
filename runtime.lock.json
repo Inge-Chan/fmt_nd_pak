@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "product": "Noesis",
+  "version": "4.474",
+  "platform": "windows",
+  "entrypoint": "Noesis64.exe",
+  "inventory_policy": "noesis-distribution-v1",
+  "source": {
+    "kind": "user-supplied local distribution",
+    "upstream": "https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91",
+    "redistributed": false
+  },
+  "distribution": {
+    "sha256": "445e346b7f608c83fd5c5c24a9b4836214da855e285239a7d739927448ae5b9f",
+    "files": 255,
+    "bytes": 110798302
+  },
+  "critical_files": {
+    "Noesis64.exe": {
+      "size": 6535680,
+      "sha256": "6cef6028ad734d6e76e92f82485257fc76ad8e06d3f463b5621ce572e2a07652"
+    },
+    "ReadMe.txt": {
+      "size": 195450,
+      "sha256": "ac46b5ec759269f56b955d2c6b336e195ee17866546f4628db192ae3243e2641"
+    },
+    "noex64/noesis.dll": {
+      "size": 2145792,
+      "sha256": "cf181f64cf7da8ee988287f85cefbd3df08e6000e1b5f8010f4bff37225238bd"
+    },
+    "noex64/noegl_opengl.dll": {
+      "size": 438784,
+      "sha256": "6bfc9ac97b795230e3fc04e8c07d91a5a90be1c58247713232da42dd7555f8b2"
+    },
+    "plugins/x64/NoesisPython.dll": {
+      "size": 5515776,
+      "sha256": "dccb1ce7e001611b3665737b1de164e8b51bfe38e2b09fac740118a0603c86b7"
+    },
+    "plugins/x64/autodesk_fbx.dll": {
+      "size": 8059904,
+      "sha256": "dd43d72d79cb97e7cf63d45d36ee5d65ace0be52f14ffd2045b79585cc507afc"
+    },
+    "plugins/x64/noesis_misc.dll": {
+      "size": 12260864,
+      "sha256": "3b464439a96447736bfabff535d789abb12dee115a624818e663df0c21a1cefa"
+    },
+    "plugins/python/core321.zip": {
+      "size": 1758929,
+      "sha256": "14e361d854c62c415a46cb67d32f79746bc9d60fc6d65c7d540237b1ee2fae1f"
+    },
+    "plugins/python/inc_noesis.py": {
+      "size": 57477,
+      "sha256": "fbaccad446bbe2bc2dde6508140bab881e90fbfa4f648fe108f94af7cf62347d"
+    },
+    "plugins/python/noewin.py": {
+      "size": 48153,
+      "sha256": "da7afc8a7a57530142e9d9869f82978280078e121743ae3e2e8f722b7b2efeb7"
+    }
+  }
+}

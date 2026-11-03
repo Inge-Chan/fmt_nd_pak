@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "defaultGame": "TLOUP1",
+  "baseDirectories": {
+    "U4": "",
+    "TLL": "",
+    "TLOUP1": "",
+    "TLOU2": ""
+  }
+}
